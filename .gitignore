@@ -1,0 +1,17 @@
+# this .gitignore uses the "ignore everything first" style
+
+# first ignore everything
+*
+
+# then unignore what we want to track
+!.gitignore
+!*.html
+!*.jpg
+!*.png
+!*.gif
+!*.ico
+!*.md
+!*.css
+!*images/
+!*css/
+!*js/

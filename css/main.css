@@ -1,0 +1,169 @@
+/*
+ * Aman Modi
+ * HackAThon Back2School Project
+ * 8/27
+ */
+
+
+.button {
+  background-color: RoyalBlue;
+  font-family: "Shadows Into Light"; 
+  font-weight: 300;
+  font-size: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.margin35 {
+  margin: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: white;
+  //text-shadow: 2px 2px RoyalBlue;
+  font-family: "Sans-Serif"; 
+  font-weight: 100px;
+  font-size: 20px;
+}
+
+h3 { 
+  color: white; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Shadows Into Light"; 
+  font-size: 30px; 
+  font-weight: normal; 
+  line-height: 30px; 
+}
+
+.image  {
+  background-image: url("connect.webp");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.img-column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.img-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.img-width {
+  width: 49%;
+  height: 400px;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+  .img-width {
+  width: 300%;
+}
+}

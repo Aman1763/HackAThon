@@ -1,0 +1,64 @@
+<!--
+Aman Modi
+HackAThon Back2School Project
+8/27
+-->
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body class="image">  
+	<div class="flex">
+	   <h3>Contact</h3>
+	</div>
+	<div class="flex">
+	   <button id="home" class="button">Home</button>
+	   <button id="information" class="button">Information</button>
+	   <button id="reach" class="button">Reach</button>
+	</div>
+<div class="container">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="name" name="name" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your email address..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Message</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input id="submit" type="submit" value="Submit">
+  </div>
+  <div id="answer" class="col-xs-12 col-sm-4 offset-sm-4 centered">
+</div>
+
+	
+	<div id="msg">
+		<br>
+	</div>
+<!-- this loads jquery -->
+         <script src="js/jquery.min.js"></script> 
+        <!-- this loads bootstrap -->
+         <script src="js/bootstrap.min.js"></script> 
+        <!-- this loads custom -->
+       <script src="js/contact.js"></script>
+</body>
+</html>
